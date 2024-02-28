@@ -1,15 +1,17 @@
-# Movielens_Harvardx
+# Netflix Movie Recommendation Challenge
 
-This is my movie recommendation project for Harvard University's Professional Certificate in Data Science. 
+<div id="header" align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDNzM3hvMzdvc2M0Z3E0YndxdW9uMzY3cGtrcjAzMTdjaWk0eGxvOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tmH5eUto7WumOdTvRG/giphy.gif" width="700" height="300"/>
+</div>
 
-Language Used: R
+---
 
-Machine Learning Techniques Used: Linear regression, regularization, Recosystem matrix factorization.
+## Overview of the Project
 
-Three files are currently included in this repository (Shiny document coming at a later date):
+**Inspired by the Netflix Recommendation Challenge, where a $1,000,000 prize was offered to the first team to achieve an improve of 10% or better over Netflix's then deployed movie recommendation algorithm, this project covers the development of a matrix factorization machine learning model with an RMSE score of 0.781 (approximately 9.6% better than Netflix's model). Created independently in Summer 2022, the project utilized R, RStudio, machine learning, data visualization, and data cleaning techniques to both outperform Netflix's algorithm and make explicit the power of matrix factorization in predictive models.**
 
-1. Movielens_10M_PDF is a PDF copy of the knitted R Markdown report.
-2. MovieLens_10M is the R Markdown file from which the PDF is knitted. 
-3. movielens_hx_c9 is the raw code file. For the most up to date version of the code used, I recommend seeing the Rmd file instead.
+## Disclaimer
 
-Warning: It is not recommended that the Rmd be knit unless you are operating with a minimum of 32GB of RAM. While the file should knit properly regardless of RAM (tested with as little as 8GB), the time to complete the knit is in excess of 3 hours for 8GB computers.
+This project was completed in July 2022 and no further work is expected at this time. 
+
+I make no claim to the data used. The dataset is available at: https://grouplens.org/datasets/movielens/10m/.
